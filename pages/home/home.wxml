@@ -1,3 +1,8 @@
 <!--pages/home/home.wxml-->
-<text class="a">hellow world</text>
+<text class="a">{{text}}</text>
 <button>按钮</button>
+<block wx:for='{{list}}' wx:key="index">
+<view>姓名：{{item.name}}     年龄：{{item.age}} </view></block>
+<view>当前计数：{{num}}</view>
+<button class="sub" bindtap="sub" size="mini">-</button>
+<button class="add" bindtap="add" size="mini">+</button>

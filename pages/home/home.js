@@ -1,66 +1,27 @@
 // pages/home/home.js
 Page({
-
-    /**
-     * 页面的初始数据
-     */
-    data: {
-
+    data:{
+        text:'面对疾风咯',
+        list:[
+            {id:110,name:'勒布朗',age:36},
+            {id:111,name:'布莱恩特',age:36},
+            {id:112,name:'艾弗森',age:36},
+            {id:113,name:'威斯布鲁克',age:36},
+            {id:114,name:'尼克杨',age:36},
+        ],
+        num:0
     },
-
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad: function (options) {
-
+    add(){
+        //错误做法，界面是不会刷新的
+        // this.data.num++
+        this.setData({
+            num:this.data.num+1
+        })
     },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage: function () {
-
+    sub(){
+        // this.data.num--
+        this.setData({
+            num:this.data.num-1
+        })
     }
 })
