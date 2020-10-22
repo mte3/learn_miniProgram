@@ -1,5 +1,6 @@
 <!--pages/home/home.wxml-->
 <text class="a">{{text}}</text>
+<text class="a">{{text}}</text>
 <button>按钮</button>
 <block wx:for='{{list}}' wx:key="index">
 	<view>姓名：{{item.name}} 年龄：{{item.age}} </view>
@@ -8,3 +9,4 @@
 <button class="sub" bindtap="sub" size="mini">-</button>
 <button class="add" bindtap="add" size="mini">+</button>
 <view>{{name}}</view>
+<text decode> 5 > 3  ===  5 &gt; 3</text>
