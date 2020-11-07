@@ -1,0 +1,3 @@
+<!--components/my-num-/my-num1.wxml-->
+<button size="mini" bindtap="add">+</button>
+<button size="mini" bindtap="sub">-</button>

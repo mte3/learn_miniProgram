@@ -5,7 +5,19 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        choiceImage:[]
+    },
+    choiceImg(){
+        //从本地选择图片
+        wx.chooseImage({
+            success:(res) => {
+                const imgs = [];
+                imgs.push(...res.tempFilePaths);
+                this.setData({
+                    choiceImage :imgs
+                })
+            }
+        })
     },
 
     /**

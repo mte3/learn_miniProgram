@@ -1,0 +1,2 @@
+<!--components/my-num/my-num.wxml-->
+<view>{{num}}</view>

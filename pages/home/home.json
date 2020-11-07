@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "tab-control":"../../components/tab-control/tab-control",
+    "my-num":"../../components/my-num/my-num",
+    "my-num1":"../../components/my-num-/my-num1"
+  },
   "navigationBarTitleText": "购物街"
 }

@@ -10,3 +10,9 @@
 <button class="add" bindtap="add" size="mini">+</button>
 <view>{{name}}</view>
 <text decode> 5 > 3  ===  5 &gt; 3</text>
+<tab-control title="{{['衣服','鞋子','裤子','帽子']}}" bind:itemHandel="handelItem"/>
+<my-num class="num"/>
+<button size="mini" bindtap="handeladd">+</button>
+<button size="mini" bindtap="handelsub">-</button>
+<view>{{a}}</view>
+<my-num1 bind:add='add1' bind:sub='sub1' />

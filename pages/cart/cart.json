@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-cpn":"../../components/my-cpn/my-cpn"
+  },
   "navigationBarTitleText": "购物车"
 }
