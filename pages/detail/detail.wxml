@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail.wxml</text>
+<navigator url="/pages/detail1/de">跳到详情1页</navigator>
+<view>{{mes}}</view>
+<view>{{mes1}}</view>

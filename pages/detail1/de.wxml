@@ -1,0 +1,4 @@
+<!--pages/detail1/de.wxml-->
+<text>pages/detail1/de.wxml</text>
+<navigator open-type="navigateBack">返回</navigator>
+<navigator open-type="navigateBack" delta="2">返回两级</navigator>

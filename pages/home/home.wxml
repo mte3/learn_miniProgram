@@ -16,3 +16,7 @@
 <button size="mini" bindtap="handelsub">-</button>
 <view>{{a}}</view>
 <my-num1 bind:add='add1' bind:sub='sub1' />
+<navigator open-type="redirect" url="/pages/detail/detail">跳到详情页</navigator>
+<navigator open-type="switchTab" url="/pages/cart/cart">跳到购物车</navigator>
+<navigator open-type="reLaunch" url="/pages/detail/detail">跳到详情页</navigator>
+<navigator open-type="reLaunch" url="/pages/detail/detail?name={{text}}">跳到详情页传参</navigator>
